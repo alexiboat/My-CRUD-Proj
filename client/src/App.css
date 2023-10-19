@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+.container{
+  padding: 5px;
+  max-width: fit-content;
+  margin: 50px auto;
+
+}
+.btn{
+  border: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.btn-add{
+  background-color: #194064;
+  color: whitesmoke;
+  
+}
+.addcontainer{
+  position:absolute;
+  background-color: rgba(0, 0,0,0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcontainer form{
+ width: 420px;
+ background-color: white ;
+ display: flex;
+ flex-direction: column;
+ padding: 50px 40px;
+ box-shadow: 5px 5px 10px rgba(0, 0,0,0.2);
+ border-radius: 5px;
+}
+.addcontainer form label{
+  font-size: 16px;
+  
+}
+
+.addcontainer form input{
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.addcontainer form button{
+  background-color: royalblue;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.close-btn{
+  margin-left: auto;
+  font-size: 18;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tableContainer{
+  margin-top: 50px;
+  border: 1px solid rgb(54, 49, 49);
+  box-shadow: 5px 5px 10px rgba(0, 0,0,0.2);
+  border-radius: 10px;
+
+}
+
+.tableContainer table thead tr{
+  background-color: antiquewhite;
+  text-align: center;
+}
+.tableContainer table thead tr th{
+ min-width: 150px;
+ padding: 5px;
+ text-align: center;
+}
+.tableContainer table tbody tr td{
+  min-width: 150px;
+  padding: 5px;
+  text-align: center;
+ }
+ .tableContainer table tbody tr td{
+  border-bottom: 1px solid rgb(58, 55, 55);
+ }
+ .btn-edit{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(186, 202, 202);
+ }
+ .btn-delete{
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  background-color: rgb(150, 28, 28);
+  color: white;
+ }
